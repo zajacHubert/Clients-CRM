@@ -27,5 +27,5 @@ app.use('/', homeRouter);
 app.use(handleError);
 
 app.listen(3000, 'localhost',()=>{
-    console.log('server is listening');
+    console.log('server is listening at http://localhost:3000/');
 });
